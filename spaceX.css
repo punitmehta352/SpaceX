@@ -184,7 +184,7 @@
     height: 10vh;
     display: flex;
     justify-content: center;
-   
+   margin: 0;
     align-items: center;
     background-color: black;
     gap : 20px;
@@ -224,11 +224,41 @@
         top:25px;
         right: 35px;
     }
-    .main-content>p>h1{
-      font-size: 20px;
-      color: white;
-      text-decoration: solid;
-      font-weight: 600;
-    }
+    .hero-text,
+  .hero-2-text,
+  .hero-3-text {
+    width: 90vw;
+    padding: 50px 20px;
+  }
+
+  .hero h1,
+  .hero-2 h1,
+  .hero-3 h1 {
+    font-size: 28px;
+  }
+
+  .hero p,
+  .hero-2 p,
+  .hero-3 p {
+    font-size: 16px;
+  }
+
+  .hero-3 p {
+    font-size: 22px;
+  }
+
+  input[type="button"] {
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+   gap: 10px; 
+    background-color: black;
+   
+  }
  
   }
