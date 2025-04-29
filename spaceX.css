@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #000; */
+    color: #fff;
+  }
+  
+  img {
+    max-width: 120px;
+    height: 70px;
+  
+   
+  }
+  .main-content{
+   
+    background-color: black;
+  }
+ 
+  .nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    position: absolute ;
+    z-index: 1000;
+    background: transparent;
+
+  }
+  .nav-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+ .nav-right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    
+  }
+  a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+.hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_MOBILE_0d4efab6b8.jpg);
+    background-size: contain;
+    background-color: #020204;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero-text{
+    width: 50vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content : flex-end;
+    align-items: flex-start;
+    padding: 100px 100px;
+    gap: 5px;
+  }
+  
+  .hero h1{
+    font-size: 41px;
+    color: white;
+  }
+  
+  .hero p{
+    font-size: 20px;
+    color: white;
+  }
+  input[type="button"]{
+   
+    width: 165px;
+    height: 50px;
+    margin-top: 30px;
+   box-sizing: border-box;
+   color:white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-color: white;
+    
+  }
+  .hero-2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Starlink_SLC_40_Mobile_208feb364b.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-2-text{
+    width: 50vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content : flex-end;
+    align-items: flex-start;
+    padding: 100px 100px;
+    gap: 5px;
+  }
+  
+  .hero-2 h1{
+    font-size: 41px;
+    color: white;
+  }
+  
+  .hero-2 p{
+    font-size: 20px;
+    color: white;
+  }
+  
+  .hero-3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Evasuit_mobile_Vers3_ae50e33c99.jpg);
+    background-size: contain;
+    background-color: #020204;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .hero-3-text{
+    width: 50vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content : flex-end;
+    align-items: flex-start;
+    padding: 100px 100px;
+    gap: 5px;
+  }
+  
+  .hero-3 h1{
+    font-size: 45px;
+    color: white;
+    text-decoration: solid;
+    font-weight: 600;
+  }
+  
+  .hero-3 p{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+  }
+  .footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    background-color: black;
+    gap : 20px;
+  }
+  .footer p{
+    font-size: 15px;
+    color: white;
+    gap: 50px;
+    letter-spacing: 0px;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+      .nav-center , .nav-right{
+        display: none;
+      }
+      .nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background-color: black;
+        position: absolute ;
+        z-index: 1000;
+        background: transparent;
+      }
+       .hamburger{
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        position: absolute;
+        top:25px;
+        right: 35px;
+    }
+    .main-content>p>h1{
+      font-size: 20px;
+      color: white;
+      text-decoration: solid;
+      font-weight: 600;
+    }
+ 
+  }
